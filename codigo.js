@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var senha = document.getElementById('senha').value
         var butao = document.getElementById('customSwitch').checked
 
-        alert('Username: ' + usuario + '\nsenha: ' + senha + (butao ? '\nDados salvos' : '\nDados esquecidos'))
+        alert('Username: ' + usuario + '\nsenha: ' + senha + (butao ? '\nDados salvos' : '\nDados não salvos'))
 
     })
 })
