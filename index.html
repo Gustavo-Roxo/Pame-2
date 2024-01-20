@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="codigo.js"></script>    
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo1">
+            <h2>GitFluxo</h2>
+            <img src="./img/image_2.png">
+        </div>
+
+        <div class="logo2">
+            <h2>Let's build from here</h2>
+        </div>
+
+    </div>
+
+    <div class='main'>
+        <div class="signin">
+            <h2>Sign in to GitFluxo</h2>
+        </div>
+
+        <div id="html-c" style="display:block; color: white; z-index: 10; position: relative;"></div>
+
+        <div class="formulario">
+            <form style="margin: -10px">
+                <div>
+                    <label for="username">Username or email address</label>
+                </div>
+
+                <div>
+                    <input type="text" id="username" name="username" placeholder="  username or email address" required>
+                </div>
+
+                <div class="formulario-senha">
+                    <div style="width: 30%;">
+                        <label for="senha">Password</label>
+                    </div>
+                    <div>
+                        <a href="#">Forgot password ?</a>
+                    </div>
+                </div>
+                <div>
+                    <input type="senha" id="senha" placeholder="password" required>
+                </div>
+
+                <div style="margin-top: -20px">
+                    <div class="switch">
+                        <input type="checkbox" id="customSwitch" checked>
+                        <label class="switch-n" for="customSwitch">
+                            <div class="switch-m"></div>
+                        </label>
+                        <label for="customSwitch" style="font-size: 10px;
+                        font-weight: bold;">remember me</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="butao-signin">Sign In</button>
+
+                <p>or</p>
+
+                <button type="button" class="social-button" onClick="alert('Continue com Google!')">
+                    <img src="./img/image_4.png"> 
+                    Continue with Google
+                </button>
+
+                <button type="button" class="social-button" onClick="alert('Continue com Facebook!')">
+                    <img src="./img/image_3.png"> 
+                    Continue with Facebook
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class='rodape'>
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Contact GitFluxo Support</a></li>
+            <li><a href="#">Do not share my personal information</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+.header {
+    align-items: center;
+    height: 30px;
+    background-color: #2c2c2cfd;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.header h2 {
+    font-weight: lighter;
+}
+
+body {
+    color: #c3c2c2;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: #131313;
+}
+
+.logo1 {
+    width: 50%;
+}
+
+.logo1 img {
+    width: 30px;
+    margin-left: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.logo1 h2 {
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.logo2 h2 {
+    display: inline-block;
+}
+
+.logo2 {
+    width: 50%;
+}
+
+.main .formulario {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    padding: 40px 35px;
+    z-index: 0px;
+    margin-right: auto;
+    max-width: 310px;
+    background-color: #2c2c2cfd;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.main {
+    background-image: url("./img/image_1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    height: calc(100vh - 60px);
+    padding: 15px;
+    width: 100%;
+}   
+
+.main form {
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    text-align: left;
+}
+
+.main::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 92%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 5%, rgba(10, 10, 10, 0.90) 10%, rgba(25, 20, 20, 0.80) 15%, rgba(35, 30, 30, 0.80) 70%, rgba(40, 40, 40, 0.8) 100%);
+}
+
+.main h2 {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main label {
+    font-size: 10px;
+    color: #969696;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.signin {
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.main .formulario-senha a {
+    margin-left: auto;
+    color: #0241e1;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#html-c {
+    color: white !important;
+    z-index: 10;
+    position: relative;
+}
+
+.main .formulario-senha {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+.main button {
+    width: 90%;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    border: 0px solid transparent;
+}
+
+.formulario div:has(input) {
+    margin-bottom: 30px;
+}
+
+.main a {
+    box-sizing: border-box;
+    display: contents;
+    margin-bottom: -5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.main div:has(label) {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.main p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.main input {
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #232323;
+    padding: 10px 10px;
+    box-shadow: none;
+    width: 90%;
+    border: 0px solid transparent;
+    font-size: 10px;
+    margin-block: auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+.butao-signin {
+    background-color: #0eed0e;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.social-button {
+    background-color: #232323;
+    color: #fff;
+    margin: 15px 15px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.main button img {
+    margin-right: 10px;
+}
+
+.social-button img {
+    width: 15px;
+}
+
+.rodape {
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0px 10px 0px;
+    max-height: 20px;
+}
+
+.rodape a {
+    color: #817f7f;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape ul {
+    padding: 0px;
+    margin: -5px;
+}
+
+.rodape li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 0px !important;
+}
+
+.switch-n {
+    position: relative;
+    padding: 10px 20px;
+    background-color: dimgrey;
+    line-height: 15px;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.switch-m:before {
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    width: 15px;
+    background-color: #fff;
+}
+
+.switch-m {
+    right: 0px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.switch input:checked+.switch-n {
+    background-color: #0eed0e;
+}
+
+.switch input:checked+.switch-n .switch-m:before {
+    transform: translateX(15px);
+}
